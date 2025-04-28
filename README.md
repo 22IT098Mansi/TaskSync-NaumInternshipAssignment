@@ -16,6 +16,28 @@ TaskSync is designed to help users efficiently organize and track their tasks. U
 
 ---
 ---
+## 📸 Screenshots
+
+| Light Mode | Dark Mode |
+|:----------:|:---------:|
+| ![TaskSync Light Mode](path/to/light-mode-screenshot.png) | ![TaskSync Dark Mode](path/to/dark-mode-screenshot.png) |
+
+### More Views
+- **Login Page**
+  > ![Login Page](path/to/login-screenshot.png)
+
+- **Register Page**
+  > ![Register Page](path/to/register-screenshot.png)
+
+- **Dashboard (Task List)**
+  > ![Dashboard](path/to/dashboard-screenshot.png)
+
+- **Create New Task**
+  > ![Create Task Modal](path/to/create-task-screenshot.png)
+
+> 🖼️ Replace `path/to/your-image.png` with the actual paths of your screenshots.
+---
+---
 ## 🏗️ Technical Choices & Architecture
 
 ### Technical Choices
