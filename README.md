@@ -20,22 +20,20 @@ TaskSync is designed to help users efficiently organize and track their tasks. U
 
 | Light Mode | Dark Mode |
 |:----------:|:---------:|
-| ![TaskSync Light Mode](path/to/light-mode-screenshot.png) | ![TaskSync Dark Mode](path/to/dark-mode-screenshot.png) |
+| ![TaskSync Light Mode](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Light%20Mode.png) | ![TaskSync Dark Mode](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Dark%20Mode.png) |
 
 ### More Views
 - **Login Page**
-  > ![Login Page](path/to/login-screenshot.png)
+  > ![Login Page](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Login%20Page.png)
 
 - **Register Page**
-  > ![Register Page](path/to/register-screenshot.png)
+  > ![Register Page](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Register%20Page.png)
 
 - **Dashboard (Task List)**
-  > ![Dashboard](path/to/dashboard-screenshot.png)
+  > ![Dashboard](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Dashboard.png)
 
 - **Create New Task**
-  > ![Create Task Modal](path/to/create-task-screenshot.png)
-
-> 🖼️ Replace `path/to/your-image.png` with the actual paths of your screenshots.
+  > ![Create Task Modal](https://github.com/22IT098Mansi/TaskSync-NaumInternshipAssignment/blob/main/screenshots/Createing%20Task.png)
 ---
 ---
 ## 🏗️ Technical Choices & Architecture
