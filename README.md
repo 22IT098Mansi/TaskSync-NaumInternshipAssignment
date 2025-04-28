@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/2864a3da-baf4-45e4-b200-71925034ed45
+## ▶️ How to Run the Application Locally
 
-## How can I edit this code?
+### **Start the Backend**
+```bash
+cd backend
+npm start
+# or
+node server.js
+```
+- The backend will run on [http://localhost:5000](http://localhost:5000)
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/2864a3da-baf4-45e4-b200-71925034ed45) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### **Start the Frontend**
+Open a new terminal in the project root:
+```bash
 npm run dev
 ```
+- The frontend will run on [http://localhost:5173](http://localhost:5173)
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📝 Technical Details
 
-**Use GitHub Codespaces**
+- **Password Validation:** Registration enforces strong passwords (min 6 chars, 1 uppercase, 1 special symbol).
+- **Authentication:** JWT tokens are used for all protected routes. Tokens are stored in localStorage and sent in the `Authorization` header.
+- **API Endpoints:**
+  - `POST /api/users/register` — Register a new user
+  - `POST /api/users/login` — Log in and receive a JWT
+  - `GET /api/tasks` — List tasks (with optional `status` filter)
+  - `POST /api/tasks` — Create a new task
+  - `PUT /api/tasks/:id` — Update a task
+  - `DELETE /api/tasks/:id` — Delete a task
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Dark Mode:** Fully supported via Tailwind and custom UI components.
+- **Error Handling:** All forms provide user-friendly validation and toast notifications for errors and successes.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🧩 Steps Involved in the Project
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. **User registers or logs in** (with strong password validation)
+2. **JWT token is issued** and stored in localStorage
+3. **User can create, view, update, and delete tasks**
+4. **Tasks are filtered** by status (All, Active, Completed)
+5. **All API requests** are authenticated using the JWT token
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/2864a3da-baf4-45e4-b200-71925034ed45) and click on Share -> Publish.
+## 🤝 Contributing
 
-## Can I connect a custom domain to my Lovable project?
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📄 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[MIT](LICENSE)
+
+---
+
+## 📬 Contact
+
+For questions or support, please open an issue or contact the maintainer.
