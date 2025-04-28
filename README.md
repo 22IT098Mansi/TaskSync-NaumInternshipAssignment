@@ -1,4 +1,20 @@
+# TaskSync
 
+**TaskSync** is a full-stack task management application developed as an assignment for **Naum Systems**. The application enables users to efficiently manage their daily tasks with features such as user authentication, task creation, editing, deletion, priority assignment, and completion tracking. TaskSync offers a modern, responsive user interface with dark mode support, secure authentication, and a robust backend API. The project demonstrates best practices in full-stack development, including RESTful API design, JWT-based authentication, password security, and a clean, user-friendly frontend experience.
+
+---
+
+## ✨ Project Overview
+
+TaskSync is designed to help users efficiently organize and track their tasks. Users can:
+- Register and log in securely
+- Create, edit, and delete tasks
+- Set task priorities (Low, Medium, High)
+- Mark tasks as complete or incomplete
+- Filter tasks by status (All, Active, Completed)
+- Enjoy a seamless experience in both light and dark mode
+
+---
 ---
 
 ## ▶️ How to Run the Application Locally
